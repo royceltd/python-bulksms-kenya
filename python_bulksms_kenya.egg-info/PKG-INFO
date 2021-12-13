@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: python-bulksms-kenya
+Version: 0.6
+Summary: Integrate Bulk SMS into your project in less than 2 minutes
+Home-page: https://github.com/royceltd/python-bulksms-kenya
+Author: Royce Technologies Ltd
+Author-email: info@roycetechnologies.co.ke
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/royceltd/python-bulksms-kenya/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#### Integrate Bulk SMS into your python system in 2 minutes
+
+[Open a free account](https://bulksms.roycetechnologies.co.ke/) and obtain your apikey
+
+Example sender ID `RoyceLtd`
+
+- ##### Install this package
+
+```
+pip install python-bulksms-kenya
+```
+
+- ##### Install requests
+
+```
+pip install requests
+```
+
+- ##### Send message
+
+```
+
+from roycebulksms import sendSMS
+
+sendSMS(number, message, senderid,apikey)
+```
+
+

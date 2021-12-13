@@ -1,5 +1,26 @@
-# Example Package
+#### Integrate Bulk SMS into your python system in 2 minutes
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+[Open a free account](https://bulksms.roycetechnologies.co.ke/) and obtain your apikey
+
+Example sender ID `RoyceLtd`
+
+- ##### Install this package
+
+```
+pip install python-bulksms-kenya
+```
+
+- ##### Install requests
+
+```
+pip install requests
+```
+
+- ##### Send message
+
+```
+
+from roycebulksms import sendSMS
+
+sendSMS(number, message, senderid,apikey)
+```

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+python_bulksms_kenya.egg-info/PKG-INFO
+python_bulksms_kenya.egg-info/SOURCES.txt
+python_bulksms_kenya.egg-info/dependency_links.txt
+python_bulksms_kenya.egg-info/top_level.txt
